@@ -65,7 +65,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-     background: url('med1.jpg') no-repeat;
+     background: url('1.jpg') no-repeat;
     background-size: 100%;
 
 }
@@ -81,13 +81,17 @@ a {
 }
 
 .box {
-    background-color: #444;
-    padding: 130px;
+    background-color: #000000;
+    padding: 50px;
     margin: 20px;
 }
 
 .box > img {
-    width: 100%;
+    width: 400px;
+    height: 400px;
+    
+
+
 }
 
 .box:hover {
@@ -116,6 +120,9 @@ footer {
 /***********************************************************************
  *  Green Background
  **********************************************************************/
+ .ye {
+    background-color: #FFD700;
+ }
 .green {
     background: #56B870; /* Old browsers */
     background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
@@ -142,7 +149,7 @@ footer {
 /***********************************************************************
  *  Yellow Background
  **********************************************************************/
-.yellow {
+.green {
     background: #1aad1a; /* Old browsers */
     background: -moz-linear-gradient(top, #1aad1a 0%, #febf04 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1aad1a), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
